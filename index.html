@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Lora&family=Playfair+Display:ital@0;1&display=swap"
+        rel="stylesheet">
+        
+    <link rel="stylesheet" href="style.css">
+    <title>BuscaCep</title>
+</head>
+
+<body>
+    <main>
+        <div>
+            <h2>Busca Cep</h2>
+            <label for="cep">Cep</label>
+            <input type="text" id="cep" placeholder="Cep">
+            <label for="logradouro">Endereço</label>
+            <input type="text" id="endereco" placeholder="Endereço">
+            <label for="bairro">Bairro</label>
+            <input type="text" id="bairro"class="label">
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade">
+            <label for="estado">Estado</label>
+            <input type="text" id="estado"><br>
+            <input type="submit" onclick="ClicarBotao()" class="btn" id="submit"><br>
+            <input type="reset" onclick="limparBotao()"class= "btn" id="clean" >
+
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
